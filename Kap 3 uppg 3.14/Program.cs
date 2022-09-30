@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Globalization;
-
 namespace Uppgift313
 {
     class program
@@ -12,7 +10,15 @@ namespace Uppgift313
             Console.WriteLine("Hur gammal är du?");
             int ålder =int.Parse(Console.ReadLine());
 
-           
+
+            if (ålder < 22 && svar == "j" == )
+            {
+                Console.WriteLine("Vi vill gärna anställa dig");
+            }
+            else
+            {
+                Console.WriteLine("Vi letar tyvärr efter annan personal just nu.");  //blkkkkkalblaadf
+            }
 
         }
     }
