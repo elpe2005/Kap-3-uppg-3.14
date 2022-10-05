@@ -9,15 +9,15 @@ namespace Uppgift313
             string svar = Console.ReadLine();
             Console.WriteLine("Hur gammal är du?");
             int ålder =int.Parse(Console.ReadLine());
+            
 
-
-            if (ålder < 22 && svar == "j" == )
+            if (ålder < 22 && svar.ToLower == "j")
             {
                 Console.WriteLine("Vi vill gärna anställa dig");
             }
             else
             {
-                Console.WriteLine("Vi letar tyvärr efter annan personal just nu.");  //blkkkkkalblaadf
+                Console.WriteLine("Vi letar tyvärr efter annan personal just nu.");
             }
 
         }
